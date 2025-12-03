@@ -11,7 +11,9 @@ View your app in AI Studio: https://ai.studio/apps/drive/17dIn_er26BNgCXJGl45xu7
 ## Run Locally
 
 **Prerequisites:**  Node.js
-
+git add docs/index.html
+git commit -m "Fix asset paths for GitHub Pages"
+git push
 
 1. Install dependencies:
    `npm install`
