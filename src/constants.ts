@@ -156,7 +156,7 @@ export const COUNTRY_DATA: { name: string, code: string }[] = [
     { name: 'Yemen', code: '+967' },
     { name: 'Zambia', code: '+260' },
     { name: 'Zimbabwe', code: '+263' }
-  ].sort((a, b) => a.name.localeCompare(b.name)));
+  ].sort((a, b) => a.name.localeCompare(b.name));
 
 export const ERITREAN_CITIES = [
     { name: 'Asmara', description: 'The capital city, known for its well-preserved Italian colonial architecture and vibrant culture.', imageId: '1018' },
@@ -177,13 +177,13 @@ export const WELCOME_GREETINGS = [
     { lang: 'Saho', text: 'Ahlan wa sahlan' },
     { lang: 'Bilen', text: 'Selam' },
     { lang: 'Afar', text: 'Gadda ge' },
-    { lang: 'Kunama', text: 'Barka' },
+    { lang: 'Kunama', text: 'MayDambe' },
     { lang: 'Nara', text: 'Abarka' },
     { lang: 'Arabic', text: 'أهلاً و سهلاً' }
 ];
 
 export const USERS: User[] = [
-  { id: 1, firstName: 'Eleanor', fatherName: 'Vance', email: 'e.vance@eripro.com', role: Role.SUPER_ADMIN, department: Department.EXECUTIVE, specialization: 'Platform Architect', avatarUrl: 'https://picsum.photos/id/1027/100/100', yearsOfExperience: 15, password: 'superadmin123', country: 'United States', telephone: '+1-202-555-0104', gender: 'Female', birthPlace: 'Outside Eritrea', hasEritreanId: false, wantsToWorkInEritrea: 'No', primaryGoal: 'Platform Management', ageGroup: '36-45', documentUrl: '/docs/evance_cv.pdf', bio: 'Visionary platform architect with 15 years of experience in building scalable, secure, and user-centric systems. Passionate about leveraging technology to connect professionals globally.', skills: ['System Architecture', 'TypeScript', 'React', 'Node.js', 'Cloud Infrastructure', 'Security'], socialMediaLinks: { linkedin: 'https://linkedin.com/in/eleanorvance', twitter: 'https://twitter.com/eleanorvance', github: 'https://github.com/eleanorvance' } },
+  { id: 1, firstName: 'Samsom', fatherName: 'Dawit', email: 'e.vance@eripro.com', role: Role.SUPER_ADMIN, department: Department.EXECUTIVE, specialization: 'Platform Architect', avatarUrl: 'https://picsum.photos/id/1027/100/100', yearsOfExperience: 15, password: 'superadmin123', country: 'United States', telephone: '+1-202-555-0104', gender: 'Female', birthPlace: 'Outside Eritrea', hasEritreanId: false, wantsToWorkInEritrea: 'No', primaryGoal: 'Platform Management', ageGroup: '36-45', documentUrl: '/docs/evance_cv.pdf', bio: 'Visionary platform architect with 15 years of experience in building scalable, secure, and user-centric systems. Passionate about leveraging technology to connect professionals globally.', skills: ['System Architecture', 'TypeScript', 'React', 'Node.js', 'Cloud Infrastructure', 'Security'], socialMediaLinks: { linkedin: 'https://linkedin.com/in/eleanorvance', twitter: 'https://twitter.com/eleanorvance', github: 'https://github.com/eleanorvance' } },
   { id: 2, firstName: 'Marcus', fatherName: 'Holloway', email: 'm.holloway@eripro.com', role: Role.ADMIN, department: Department.ENGINEERING, specialization: 'Security Specialist', avatarUrl: 'https://picsum.photos/id/1005/100/100', yearsOfExperience: 8, password: 'password123', country: 'United Kingdom', telephone: '+44-20-7946-0958', gender: 'Male', birthPlace: 'Outside Eritrea', hasEritreanId: false, wantsToWorkInEritrea: 'I don\'t know', primaryGoal: 'Job Seeking', ageGroup: '26-35' },
   { id: 3, firstName: 'Clara', fatherName: 'Oswald', email: 'c.oswald@eripro.com', role: Role.MANAGER, department: Department.MARKETING, specialization: 'Campaign Strategy', avatarUrl: 'https://picsum.photos/id/1011/100/100', yearsOfExperience: 7, password: 'password123', country: 'Canada', telephone: '+1-613-555-0162', gender: 'Female', birthPlace: 'Outside Eritrea', hasEritreanId: false, wantsToWorkInEritrea: 'Yes', workDurationInEritrea: '1-2 years', primaryGoal: 'Networking', ageGroup: '26-35', documentUrl: '/docs/coswald_resume.pdf' },
   { id: 4, firstName: 'Arthur', fatherName: 'Pendragon', email: 'a.pendragon@eripro.com', role: Role.TEAM_LEAD, department: Department.SALES, specialization: 'Enterprise Accounts', avatarUrl: 'https://picsum.photos/id/1012/100/100', yearsOfExperience: 6, password: 'password123', country: 'United Kingdom', telephone: '+44-121-496-0456', gender: 'Male', birthPlace: 'Outside Eritrea', hasEritreanId: false, wantsToWorkInEritrea: 'No', primaryGoal: 'Collaboration', ageGroup: '26-35' },
